@@ -1,18 +1,32 @@
-## Getting Started
+# DSA Learning in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This repository is for learning **Data Structures and Algorithms (DSA)** and implementing them in **Java**.  
+The goal is to **practice each concept, understand it deeply, and track progress**.  
 
-## Folder Structure
+> ⚠️ All topics are a **work in progress**. New implementations will be added gradually.
 
-The workspace contains two folders by default, where:
+## Structure
+DSA-Learning-Java/
+├── src/main/java/algorithms/ # Java implementations (work in progress)
+├── README.md # This file
+└── .gitignore # Ignored files
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Topics (Planned / Work in Progress)
+- **Basics:** Arrays, Strings, Recursion  
+- **Sorting:** Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort  
+- **Data Structures:** Stack, Queue, Linked List, HashMap, Heap  
+- **Trees:** Binary Trees, BST, Traversals  
+- **Graphs:** BFS, DFS, Shortest Path  
+- **Advanced:** Dynamic Programming, Greedy, Backtracking  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Note: Some topics are implemented; others are in progress.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Approach
+1. Learn the concept  
+2. Implement in Java  
+3. Test with examples  
+4. Commit with clear messages  
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Author
+**Vinay Tanniru** – Learning DSA step by step.
