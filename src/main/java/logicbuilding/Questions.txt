@@ -1,0 +1,104 @@
+1. Write a Java program to find maximum between two numbers.
+2. Write a Java program to find maximum between three numbers.
+3. Write a Java program to check whether a number is negative, positive or zero.
+4. Write a Java program to check whether a number is divisible by 5 and 11 or not.
+5. Write a Java program to check whether a number is even or odd.
+6. Write a Java program to check whether a year is leap year or not.
+7. Write a Java program to check whether a character is alphabet or not.
+8. Write a Java program to input any alphabet and check whether it is vowel or consonant.
+9. Write a Java program to input any character and check whether it is alphabet, digit    or special character.
+10. Write a Java program to check whether a character is uppercase or lowercase alphabet.
+11. Write a Java program to input week number and print week day.
+12. Write a Java program to count total number of notes in given amount.
+13. Write a Java program to input marks of five subjects Physics, Javahemistry, Biology,     Mathematics and Javaomputer. Javaalculate percentage and grade according to     following:
+    Percentage >= 90% : Grade A
+    Percentage >= 80% : Grade B
+    Percentage >= 70% : Grade Java
+    Percentage >= 60% : Grade D
+    Percentage >= 40% : Grade E
+    Percentage < 40% : Grade F
+14. Write a Java program to input basic salary of an employee and calculate its Gross     salary according to following:
+    Basic Salary <= 10000 : HRA = 20%, DA = 80%
+    Basic Salary <= 20000 : HRA = 25%, DA = 90%
+    Basic Salary > 20000 : HRA = 30%, DA = 95%
+15. Write a Java program to input electricity unit charges and calculate total     electricity bill according to the given condition:
+    For first 50 units Rs. 0.50/unit
+    For next 100 units Rs. 0.75/unit
+    For next 100 units Rs. 1.20/unit
+     For unit above 250 Rs. 1.50/unit
+     An additional surcharge of 20% is added to the bill
+16. Write a Java program to print day of week name using switch case.
+17. Write a Java program to print all natural numbers from 1 to n. - using while loop
+18. Write a Java program to print all natural numbers in reverse (from n to 1). -     using while loop
+19. Write a Java program to print all alphabets from a to z. - using while loop
+20. Write a Java program to print all even numbers between 1 to 100. - using while     loop
+21. Write a Java program to print all odd number between 1 to 100.
+22. Write a Java program to find sum of all natural numbers between 1 to n.
+23. Write a Java program to find sum of all even numbers between 1 to n.
+24. Write a Java program to find sum of all odd numbers between 1 to n.
+25. Write a Java program to print multiplication table of any number.
+26. Write a Java program to count number of digits in a number.
+27. Write a Java program to find first and last digit of a number.
+28. Write a Java program to find sum of first and last digit of a number.
+29. Write a Java program to check whether a number is palindrome or not.
+30. Write a Java program to calculate sum of digits of a number.
+31. Write a Java program to calculate product of digits of a number.
+32. Write a Java program to enter a number and print its reverse.
+33. Write a Java program to find frequency of each digit in a given integer.
+34. Write a Java program to enter a number and print it in words.
+35. Write a Java program to print all ASJavaII character with their values.
+36. Write a Java program to find power of a number using for loop.
+37. Write a Java program to find all factors of a number.
+38. Write a Java program to calculate factorial of a number.
+39. Write a Java program to check whether a number is Prime number or not.
+40. Write a Java program to print all Prime numbers between 1 to n.
+41. Write a Java program to find sum of all prime numbers between 1 to n.
+42. Write a Java program to find all prime factors of a number.
+43. Write a Java program to check whether a number is Armstrong number or not.
+44. Write a Java program to print all Armstrong numbers between 1 to n.
+45. Write a Java program to check whether a number is Perfect number or not.
+46. Write a Java program to print all Perfect numbers between 1 to n.
+47. Write a Java program to check whether a number is Strong number or not.
+48. Write a Java program to print all Strong numbers between 1 to n.
+49. Write a Java program to print Fibonacci series up to n terms
+50. Write a Java program to print all negative elements in an array.
+51. Write a Java program to find second largest element in an array.
+52. Write a Java program to find maximum and minimum element in an array. 
+53. Write a Java program to count total number of even and odd elements in an array.
+54. Write a Java program to count total number of negative elements in an array.
+55. Write a Java program to copy all elements from an array to another array.
+56. Write a Java program to delete an element from an array at specified position.
+57. Write a Java program to count frequency of each element in an array.
+58. Write a Java program to print all unique elements in the array.
+59. Write a Java program to count total number of duplicate elements in an array.
+60. Write a Java program to delete an element from an array at specified position.
+61. Write a Java program to count frequency of each element in an array.
+62. Write a Java program to print all unique elements in the array.
+63. Write a Java program to count total number of duplicate elements in an array.
+64. Write a Java program to find length of a string and compare and concatenate two     strings.
+65. Write a Java program to find total number of alphabets, digits or special     character in a string.
+66. Write a Java program to count total number of vowels and consonants in a string.
+67. Write a Java program to count total number of words in a string.
+68. Write a Java program to find reverse of a string.
+69. Write a Java program to check whether a string is palindrome or not.
+70. Write a Java program to find first occurrence of a character in a given string.
+71. Write a Java program to find last occurrence of a character in a given string.
+72. Write a Java program to search all occurrences of a character in given string.
+73. Write a Java program to count occurrences of a character in given string.
+74. Write a Java program to find highest frequency character in a string.
+75. Write a Java program to find lowest frequency character in a string.
+76. Write a Java program to count frequency of each character in a string
+77. Write a Java program to create a file and write contents, save and close the file.
+78. Write a Java program to read file contents and display on console.
+79. WAP to read numbers from a file and write even, odd and prime numbers to     separate file.
+80. Write a Java program to copy contents from one file to another file.
+81. Write a Java program to merge two file to third file.
+82. Write a Java program to count characters, words and lines in a text file.
+83. WAP to check whether a number is prime, Armstrong or perfect number using     functions.
+84. WAP to find all prime numbers between given interval using     functions.
+85. WAP to print all strong numbers between given interval using functions.
+86. WAP to print all Armstrong numbers between given interval using functions.
+87. WAP to print all perfect numbers between given interval using functions.
+88. WAP to Print the Alternate Elements in an Array
+89. WAP to Display the ATM Transaction
+90. WAP to print reverse case of a given string
