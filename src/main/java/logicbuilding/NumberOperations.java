@@ -7,15 +7,23 @@ package main.java.logicbuilding;
 // 4. Write a Java program to check whether a number is divisible by 5 and 11 or not.
 // 5. Write a Java program to check whether a number is even or odd.
 // 6. Write a Java program to check whether a year is leap year or not.
+// 20. Write a Java program to print all even numbers between 1 to 100. - using while loop
+// 21. Write a Java program to print all odd number between 1 to 100.
+// 25. Write a Java program to print multiplication table of any number.
 
 public class NumberOperations {
     public static void main(String[] args) {
-        maxOf2Numbers(75,65);
-        maxOf3Numbers(10,10,5);
-        checkNumberSign(-5);
-        checkDivisibility(65);
-        checkEvenOdd(7);
-        findingLeapYear(2020);
+        // maxOf2Numbers(75,65);
+        // maxOf3Numbers(10,10,5);
+        // checkNumberSign(-5);
+        // checkDivisibility(65);
+        // checkEvenOdd(7);
+        // findingLeapYear(2020);
+        printEvenNumbers();
+        System.out.println();
+        printOddNumbers();
+        System.out.println();
+        printTable(5);
 
     }
 
@@ -61,9 +69,9 @@ public class NumberOperations {
 
     static void checkEvenOdd(int a){
         if(a%2 == 0){
-            System.out.println("The Value of "+a+ " is a Even number");
+            System.out.println("The Value of "+a+ " is an Even number");
         }else {
-            System.out.println("The Value of "+a+ " is a Odd number");
+            System.out.println("The Value of "+a+ " is an Odd number");
         }
     }
 
@@ -73,6 +81,38 @@ public class NumberOperations {
             System.out.println("The Value of "+a+ " is a Leap year");
         }else {
             System.out.println("The Value of "+a+ " is not a Leap year");
+        }
+    }
+
+    static void printEvenNumbers(){
+        int i=2;
+        while(i<=100){
+                if(i<100){
+                    System.out.print(i+",");
+                }else{
+                    System.out.print(i);
+                }
+            i += 2;
+        }
+    }
+
+        static void printOddNumbers(){
+        int i=1;
+        while(i<=99){
+                if(i<99){
+                    System.out.print(i+",");
+                }else{
+                    System.out.print(i);
+                }
+            i += 2;
+        }
+    }
+
+    static void printTable(int n){
+        int i=1;
+        while(i<=10){
+            System.out.println(n +" X "+i+" = "+(n*i));
+            i++;
         }
     }
     
