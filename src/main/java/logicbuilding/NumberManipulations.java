@@ -1,5 +1,6 @@
 package main.java.logicbuilding;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // 26. Write a Java program to count number of digits in a number.
@@ -25,22 +26,31 @@ public class NumberManipulations {
         int n = s.nextInt();
 
         if(n <= 0){
-            System.out.println("Entered Invalid number");
+            System.out.println("Entered Positive numbers greater than Zero");
             s.close();
             return;
         }
         
-        countDigits(n);
+        // countDigits(n);
 
-        findFirstandLastDigit(n);
+        // findFirstAndLastDigit(n);
+
+        // isPalindrome(n);
+
+        // calculateSum(n);
+
+        // calculateProduct(n);
+
+        frequencyOfDigit(n);
 
         s.close();
     }
 
-    static void findFirstandLastDigit(int n){
+    static void findFirstAndLastDigit(int n){
+
         int lastDigit = n%10;
         while(n >= 10){
-            n=n/10;
+            n = n/10;
         }
         System.out.println("The First digit will be "+n+"\nThe Last digit will be "+lastDigit);
         System.out.println("The Sum of First and Last digit will be "+(n+lastDigit));
@@ -54,5 +64,55 @@ public class NumberManipulations {
             count++;
         }
         System.out.println("The no of digits in given number "+temp+" is: "+count);
+    }
+
+    static void isPalindrome(int n){
+        int reverseNumber=0,inputNumber;
+        inputNumber = n;
+        while(n>0){
+            int temp =n%10;
+            reverseNumber = (reverseNumber * 10 ) + temp ;
+            n=n/10;
+        }
+        System.out.println("The Reverse of all digits in number be "+ reverseNumber);
+        if(inputNumber == reverseNumber ){
+            System.out.println("The number is palindrome");
+        }else{
+            System.out.println("The number is not an palindrome");
+        }
+    }
+
+    static void calculateSum(int n){
+
+        int sumOfDigits=0;
+        while(n > 0){
+                int temp = n%10;
+                sumOfDigits += temp;
+                n = n/10;
+        }
+        System.out.println("The Sum of all digits in number be "+ sumOfDigits);
+    }
+
+    static void calculateProduct(int n){
+
+        int productOfDigits=1;
+        while(n > 0){
+                int temp = n%10;
+                productOfDigits *= temp;
+                n = n/10;
+        }
+        System.out.println("The Product of all digits in number be "+ productOfDigits);
+    }
+
+    static void frequencyOfDigit(int n){
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        while(n>0){
+            int temp = n%10;
+            n=n/10;
+            arr.add(temp);
+        }
+        for(int arr1 : arr){
+            System.out.println(arr1);
+        }
     }
 }
