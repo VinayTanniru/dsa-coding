@@ -1,6 +1,5 @@
 package main.java.logicbuilding;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 // 26. Write a Java program to count number of digits in a number.
@@ -50,7 +49,7 @@ public class NumberManipulations {
 
         int lastDigit = n%10;
         while(n >= 10){
-            n = n/10;
+            n=n/10;
         }
         System.out.println("The First digit will be "+n+"\nThe Last digit will be "+lastDigit);
         System.out.println("The Sum of First and Last digit will be "+(n+lastDigit));
@@ -105,14 +104,17 @@ public class NumberManipulations {
     }
 
     static void frequencyOfDigit(int n){
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+        int[] frequency = new int[10]; // Array to store frequency of digits 0-9
         while(n>0){
-            int temp = n%10;
+            int digit = n%10;
+            frequency[digit]++;
             n=n/10;
-            arr.add(temp);
         }
-        for(int arr1 : arr){
-            System.out.println(arr1);
+        System.out.println("Frequency of each digit:");
+        for(int i = 0; i < 10; i++){
+            if(frequency[i] > 0){
+                System.out.println("Digit " + i + " appears " + frequency[i] + " time(s)");
+            }
         }
     }
 }
