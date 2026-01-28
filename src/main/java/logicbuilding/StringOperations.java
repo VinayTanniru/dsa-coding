@@ -16,8 +16,9 @@ package main.java.logicbuilding;
 
 public class StringOperations {
     public static void main(String[] args) {
-        getLengthOfString("Activa");
-        compareStrings();
+        // getLengthOfString("Activa");
+        // compareStrings();
+           reverseString("Vinay");
     }
 
     static void getLengthOfString(String str){
@@ -32,5 +33,11 @@ public class StringOperations {
         // System.out.println("The comparision of both strings will be : "+(str.equals(str1)));
         System.out.println("The comparision of both strings will be : "+(s1 == s2));
         System.out.println("The comparision of both strings will be : "+(s1.equals(s2)));
+    }
+
+    static void reverseString(String str){
+        for(int i=str.length()-1;i>=0;i--){
+            System.out.print(str.charAt(i));
+        }
     }
 }
